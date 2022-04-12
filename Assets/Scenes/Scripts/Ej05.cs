@@ -11,9 +11,16 @@ public class Ej05 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        resultado = num1 + num2;
+        resultado = num1 / num2;
         Debug.Log(num1 + " / " + num2 + " = " + resultado);
-        if (num2 => 0) 
+        if (num2 == 0)
+        {
+            Debug.Log("No se puede dividir por 0");
+        }
+        else if (num2 < 0)
+        {
+            Debug.Log("es divisible por " + num2);
+        }
         
 
         
