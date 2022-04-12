@@ -2,19 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ej06 : MonoBehaviour
+public class Ej13 : MonoBehaviour
 {
-    public int num1;
+    public const int salarionormal = 16 * 40;
+    int horasExtras = 20;
+
     // Start is called before the first frame update
     void Start()
-    {if (num1 %2 == 0)
-        {
-            Debug.Log("Es Par");
-        }
-    else if (num1 %2 != 0)
-        {
-            Debug.Log("Es Impar");
-        }
+    {
         
     }
 
